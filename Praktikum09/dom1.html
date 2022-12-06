@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 9.1</title>
+</head>
+<body>
+    <h1>Menghitung Luas dan Keliling Lingkaran</h1>
+
+    <!-- Buat Tag Kosong -->
+    <span id="pi"></span>
+    <br>
+    <span id="jari"></span>
+    <br>
+    <span id="luas"></span>
+    <br>
+    <span id="keliling"></span>
+
+    <!-- Kode JavaScript -->
+    <script>
+        // Buat Variabel pi Konstan
+        const pi = 3.14;
+
+        // Buat Variabel Jari-jari
+        let r = 14;
+
+        // Buat Variabel Luas
+        let L = pi * (r * r);
+
+        // Buat Variabel Keliling
+        let K = pi * (2 * r);
+
+        document.getElementById("pi").innerHTML = "Phi : " + pi;
+
+        document.getElementById("jari").innerHTML = "Jari-jari : " + r;
+
+        document.getElementById("luas").innerHTML = "Luas lingkaran : " + L;
+
+        document.getElementById("keliling").innerHTML = "Keliling Lingkaran : " +  K;
+
+    </script>
+</body>
+</html>
